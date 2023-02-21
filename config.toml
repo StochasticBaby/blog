@@ -1,3 +1,67 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Stochastic Baby'
+theme = "hugo-coder"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = "yourdiscussshortname"
+
+[params]
+  author = "Stochastic Baby"
+  info = "To the world you may be one person, but to one person you may be the world."
+  description = ""
+  keywords = "blog,developer,personal"
+
+  since = 2023
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  math = true
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/StochasticBaby/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 2
+  url = "https://twitter.com/StochasticBaby/"
+
+# Menu links
+[[menu.main]]
+  name = "Posts"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "Tags"
+  weight = 2
+  url = "tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 3
+  url = "categories/"
+[[menu.main]]
+  name = "About"
+  weight = 4
+  url = "about/"
