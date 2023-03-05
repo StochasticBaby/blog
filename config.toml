@@ -9,6 +9,8 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+enableGitInfo = true
+
 [params]
   author = "StochasticBaby"
   info = "To the world you may be one person, but to one person you may be the world."
