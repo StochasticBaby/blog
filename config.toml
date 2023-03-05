@@ -23,6 +23,7 @@ pygmentscodefencesguesssyntax = true
   hidecolorschemetoggle = false
 
   math = true
+  commit = "https://github.com/StochasticBaby/blog/tree/"
 
   # customCSS = ["css/custom.css"]
   # customSCSS = ["scss/custom.scss"]
@@ -63,3 +64,19 @@ pygmentscodefencesguesssyntax = true
   name = "About"
   weight = 4
   url = "about/"
+
+
+[params.giscus] # https://giscus.app
+  repo = "StochasticBaby/blog"
+  repoID = "R_kgDOJAYsag"
+  category = "Announcements"
+  categoryID = "DIC_kwDOJAYsas4CUq8K"
+  mapping = "pathname"
+  term = "0"
+  strict = "1"
+  reactionsEnabled = "1"
+  emitMetadata = "0"
+  inputPosition = "bottom"
+  theme = "preferred_color_scheme"
+  lang = "en"
+  loading = "anonymous"
