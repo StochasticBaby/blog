@@ -9,10 +9,8 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
-
 [params]
-  author = "Stochastic Baby"
+  author = "StochasticBaby"
   info = "To the world you may be one person, but to one person you may be the world."
   description = ""
   keywords = "blog,developer,personal"
