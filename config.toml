@@ -80,3 +80,6 @@ pygmentscodefencesguesssyntax = true
   theme = "preferred_color_scheme"
   lang = "en"
   loading = "anonymous"
+
+[markup.highlight]
+style = "onedark"
